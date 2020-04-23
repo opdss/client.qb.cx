@@ -2,6 +2,7 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
+        <!--
         <q-btn
           flat
           dense
@@ -10,15 +11,16 @@
           aria-label="Menu"
           @click="leftDrawerOpen = !leftDrawerOpen"
         />
-
+        -->
         <q-toolbar-title>
-          Quasar App
+          QB.CX短网址
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div>QB.CX</div>
       </q-toolbar>
     </q-header>
 
+        <!--
     <q-drawer
       v-model="leftDrawerOpen"
       show-if-above
@@ -40,6 +42,7 @@
       </q-list>
     </q-drawer>
 
+        -->
     <q-page-container>
       <router-view />
     </q-page-container>
@@ -47,13 +50,13 @@
 </template>
 
 <script>
-import EssentialLink from 'components/EssentialLink'
+// import EssentialLink from 'components/EssentialLink'
 
 export default {
   name: 'MainLayout',
 
   components: {
-    EssentialLink
+    // EssentialLink
   },
 
   data () {

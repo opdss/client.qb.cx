@@ -76,7 +76,7 @@ module.exports = function (ctx) {
           API: JSON.stringify('http://z.test')
         }
         : { // and on build (production):
-          API: JSON.stringify('http://qumi.bd.istimer.com/api')
+          API: JSON.stringify('http://qb.cx')
         },
 
       // rtl: false, // https://quasar.dev/options/rtl-support
